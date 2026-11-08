@@ -1,0 +1,577 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080b12">
+  <meta name="description" content="ALO CHARAF — Motorcycle delivery service in Marrakech.">
+  <title>ALO CHARAF | Your Delivery. Our Mission.</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="topline">
+  <span class="live-dot"></span>
+  LOCAL MOTORCYCLE DELIVERY
+  <b>/</b> MARRAKECH, MOROCCO
+</div>
+
+<header class="header">
+  <a class="brand" href="#home">
+    <span class="brand-icon">↗</span>
+    <span>ALO<span>CHARAF</span>
+      <small>YOUR LOCAL COURIER</small>
+    </span>
+  </a>
+
+  <button class="menu-toggle" id="menuToggle">☰</button>
+
+  <nav id="nav">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#process">How it works</a>
+    <a href="#contact">Contact</a>
+    <a class="nav-button wa-link" href="#contact">ORDER NOW ↗</a>
+  </nav>
+</header>
+
+<main>
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+
+  <div class="grid-bg"></div>
+
+  <div class="hero-content reveal">
+
+    <div class="eyebrow">
+      <i></i> YOUR CITY. YOUR COURIER.
+    </div>
+
+    <h1>
+      YOUR DELIVERY.<br>
+      <span>OUR MISSION.</span>
+    </h1>
+
+    <p>
+      A personal motorcycle delivery service,
+      moving your requests across Marrakech
+      with care and direct communication.
+    </p>
+
+    <div class="hero-actions">
+      <a class="btn primary wa-link" href="#contact">
+        ORDER A DELIVERY <b>↗</b>
+      </a>
+
+      <a class="btn outline" href="#about">
+        DISCOVER ALO CHARAF <b>↗</b>
+      </a>
+    </div>
+
+    <div class="hero-meta">
+      <span>⌖ MARRAKECH, MOROCCO</span>
+      <i></i>
+      <span>⚡ DIRECT & PERSONAL SERVICE</span>
+    </div>
+
+  </div>
+
+  <div class="bike-scene">
+
+    <div class="orbit orbit1"></div>
+    <div class="orbit orbit2"></div>
+
+    <div class="map-pin pin1">⌖</div>
+    <div class="map-pin pin2">⌖</div>
+
+    <div class="bike-label label1">
+      <span class="live-dot"></span>
+      LOCAL COURIER <b>MARRAKECH</b>
+    </div>
+
+    <div class="bike-label label2">
+      🏍 YOUR DELIVERY, IN MOTION
+    </div>
+
+    <!-- Motorcycle illustration -->
+
+    <svg class="bike" viewBox="0 0 760 430">
+
+      <defs>
+        <linearGradient id="blue" x1="0" x2="1">
+          <stop stop-color="#1265d8"/>
+          <stop offset="1" stop-color="#55b7ff"/>
+        </linearGradient>
+
+        <linearGradient id="jacket" x1="0" x2="1">
+          <stop stop-color="#1677ef"/>
+          <stop offset="1" stop-color="#092d68"/>
+        </linearGradient>
+      </defs>
+
+      <ellipse cx="380" cy="366" rx="290" ry="22"
+        fill="#1677ef" opacity=".2"/>
+
+      <g class="wheel">
+        <circle cx="205" cy="318" r="76"
+          fill="#080b12" stroke="#8996a8" stroke-width="8"/>
+        <circle cx="205" cy="318" r="49"
+          fill="none" stroke="#34465d" stroke-width="5"/>
+        <circle cx="205" cy="318" r="10" fill="#aabbd0"/>
+        <path d="M205 270v96M157 318h96M171 284l68 68M239 284l-68 68"
+          stroke="#71849a" stroke-width="4"/>
+      </g>
+
+      <g class="wheel">
+        <circle cx="570" cy="318" r="76"
+          fill="#080b12" stroke="#8996a8" stroke-width="8"/>
+        <circle cx="570" cy="318" r="49"
+          fill="none" stroke="#34465d" stroke-width="5"/>
+        <circle cx="570" cy="318" r="10" fill="#aabbd0"/>
+        <path d="M570 270v96M522 318h96M536 284l68 68M604 284l-68 68"
+          stroke="#71849a" stroke-width="4"/>
+      </g>
+
+      <path d="M205 318l104-107 118 4 143 103M309 211l-42 107M427 215l143 103"
+        fill="none" stroke="#73849b" stroke-width="10"
+        stroke-linecap="round"/>
+
+      <path d="M270 293l40-84 124 3 57 78-54 31H300z"
+        fill="url(#blue)" stroke="#7bc7ff" stroke-width="3"/>
+
+      <path d="M320 209l39-35 91 4 28 34-58 18z"
+        fill="#101b2b" stroke="#4b5f77" stroke-width="5"/>
+
+      <path d="M362 174l-18-38 53-9 41 25-10 27z"
+        fill="#111d2d" stroke="#72849a" stroke-width="4"/>
+
+      <path d="M470 282l77 8 23 28-96-8z" fill="#d7e5f5"/>
+
+      <path d="M550 215l45-48 23 3-24 58-25 30"
+        fill="none" stroke="#a9b8c9" stroke-width="9"
+        stroke-linecap="round"/>
+
+      <path d="M578 144l27-10 18 11-11 13-29-2z"
+        fill="#dce8f7"/>
+
+      <!-- Rider -->
+
+      <path d="M307 187l-5-35-18-20-8-37 23-19 43 12 24 37-4 37 25 22-29 26z"
+        fill="url(#jacket)" stroke="#71baff" stroke-width="4"/>
+
+      <path d="M305 97l-18-25 8-31 33-17 40 16 8 29-18 32-31 7z"
+        fill="#101b2b" stroke="#b5c9df" stroke-width="5"/>
+
+      <path d="M294 65l22-29 40-2 21 25-8 12-67 5z"
+        fill="#1677ef"/>
+
+      <path d="M297 72l63-5-7 19-50 9z"
+        fill="#dcecff"/>
+
+      <path d="M344 112l39 45 35 9 22 24-19 15-52-15-49-51z"
+        fill="#0e2e5e" stroke="#528ac7" stroke-width="4"/>
+
+      <path d="M281 132l-40 58-34 15-8 20 20 10 49-21 47-57"
+        fill="#123d7b" stroke="#528ac7" stroke-width="4"/>
+
+      <path d="M171 239l-18 5M599 234l24 3"
+        stroke="#ffd43b" stroke-width="5"
+        stroke-linecap="round"/>
+
+    </svg>
+
+  </div>
+
+  <div class="hero-bottom">
+    01 <i></i> BUILT FOR THE STREETS OF MARRAKECH
+    <span>SCROLL TO EXPLORE ↓</span>
+  </div>
+
+</section>
+
+<!-- MOVING TEXT -->
+
+<div class="ticker">
+  <div>
+    LOCAL KNOWLEDGE ✳ DIRECT CONTACT ✳
+    PERSONAL DELIVERY ✳ MARRAKECH ON THE MOVE ✳
+    LOCAL KNOWLEDGE ✳ DIRECT CONTACT ✳
+    PERSONAL DELIVERY ✳
+  </div>
+</div>
+
+<!-- ABOUT -->
+
+<section class="section light" id="about">
+
+  <div class="kicker">01 / THE COURIER <i></i></div>
+
+  <div class="two-col">
+
+    <h2>
+      MORE THAN A RIDE.<br>
+      <em>A PERSONAL</em><br>
+      DELIVERY PARTNER.
+    </h2>
+
+    <div class="copy">
+
+      <h3>
+        Meet ALO CHARAF — your local motorcycle courier in Marrakech.
+      </h3>
+
+      <p>
+        Every request is handled through direct communication
+        with Achraf. From pickup to destination, the focus
+        is on a straightforward, personal service that fits your day.
+      </p>
+
+      <ul class="checks">
+        <li>✓ Local Marrakech knowledge</li>
+        <li>✓ Direct communication</li>
+        <li>✓ Flexible delivery requests</li>
+        <li>✓ Personal order handling</li>
+      </ul>
+
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+
+<section class="section light services" id="services">
+
+  <div class="kicker">02 / WHAT WE DO <i></i></div>
+
+  <div class="heading-row">
+
+    <h2>
+      READY WHEN<br>
+      <em>YOU NEED US.</em>
+    </h2>
+
+    <p>
+      One local courier. Different kinds of everyday
+      delivery requests. Get in touch to confirm
+      your request and availability.
+    </p>
+
+  </div>
+
+  <div class="cards">
+
+    <article class="card">
+      <div class="card-top">01 <span>♨</span></div>
+      <h3>Food pickup</h3>
+      <p>Pickup requests from restaurants and local food businesses.</p>
+      <a href="#contact">REQUEST SERVICE ↗</a>
+    </article>
+
+    <article class="card">
+      <div class="card-top">02 <span>▣</span></div>
+      <h3>Shopping</h3>
+      <p>Collect your purchases from local shops around Marrakech.</p>
+      <a href="#contact">REQUEST SERVICE ↗</a>
+    </article>
+
+    <article class="card">
+      <div class="card-top">03 <span>▤</span></div>
+      <h3>Parcels</h3>
+      <p>A personal courier for documents, packages and everyday items.</p>
+      <a href="#contact">REQUEST SERVICE ↗</a>
+    </article>
+
+    <article class="card">
+      <div class="card-top">04 <span>⌖</span></div>
+      <h3>Custom requests</h3>
+      <p>Have a specific pickup and drop-off request? Let's discuss it.</p>
+      <a href="#contact">REQUEST SERVICE ↗</a>
+    </article>
+
+  </div>
+
+  <p class="note">
+    Service availability is confirmed directly with Achraf before each request.
+  </p>
+
+</section>
+
+<!-- HOW IT WORKS -->
+
+<section class="section white" id="process">
+
+  <div class="kicker">03 / THE PROCESS <i></i></div>
+
+  <div class="heading-row">
+
+    <h2>
+      FOUR STEPS.<br>
+      <em>ONE EASY RIDE.</em>
+    </h2>
+
+    <p>
+      No complicated checkout. Just share the details,
+      confirm the request, and let your local courier
+      take it from there.
+    </p>
+
+  </div>
+
+  <div class="steps">
+
+    <article>
+      <b>01</b>
+      <span>✉</span>
+      <h3>GET IN TOUCH</h3>
+      <p>Send a WhatsApp message and tell Achraf what you need.</p>
+    </article>
+
+    <article>
+      <b>02</b>
+      <span>⌖</span>
+      <h3>SHARE LOCATIONS</h3>
+      <p>Send the pickup point and the delivery destination.</p>
+    </article>
+
+    <article>
+      <b>03</b>
+      <span>✓</span>
+      <h3>CONFIRM DETAILS</h3>
+      <p>The request, availability and price are confirmed with you.</p>
+    </article>
+
+    <article>
+      <b>04</b>
+      <span>🏍</span>
+      <h3>ON THE WAY</h3>
+      <p>Achraf picks up your item and takes it to its destination.</p>
+    </article>
+
+  </div>
+
+</section>
+
+<!-- MARRAKECH -->
+
+<section class="marrakech">
+
+  <div class="kicker">04 / LOCAL ROOTS <i></i></div>
+
+  <div class="city-grid">
+
+    <div>
+
+      <h2>
+        MARRAKECH<br>
+        <em>IS OUR ROUTE.</em>
+      </h2>
+
+      <p>
+        From familiar streets to new destinations,
+        ALO CHARAF is here to connect local pickups
+        and drop-offs across Marrakech.
+        Share your locations to check availability.
+      </p>
+
+      <a class="btn primary wa-link" href="#contact">
+        PLAN A DELIVERY ↗
+      </a>
+
+    </div>
+
+    <div class="map">
+      <div class="map-circles"></div>
+      <div class="map-lines"></div>
+      <span class="map-marker">⌖</span>
+      <span class="map-marker second">⌖</span>
+      <small>● MARRAKECH, MA</small>
+      <b>31°37' N<br>7°59' W</b>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- WHY CHOOSE US -->
+
+<section class="section light">
+
+  <div class="kicker">05 / THE ALO DIFFERENCE <i></i></div>
+
+  <div class="two-col why">
+
+    <h2>
+      THE SIMPLE<br>
+      WAY TO <em>SEND.</em>
+    </h2>
+
+    <div class="why-list">
+
+      <article>
+        <b>01</b>
+        <div>
+          <h3>LOCAL KNOW-HOW</h3>
+          <p>Knowledge of the city helps make local pickups and drop-offs easier to coordinate.</p>
+        </div>
+      </article>
+
+      <article>
+        <b>02</b>
+        <div>
+          <h3>STRAIGHT TO THE COURIER</h3>
+          <p>Speak directly with Achraf about your request, locations and details.</p>
+        </div>
+      </article>
+
+      <article>
+        <b>03</b>
+        <div>
+          <h3>MADE TO BE SIMPLE</h3>
+          <p>Start with a WhatsApp message. No complicated ordering process.</p>
+        </div>
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section class="section contact" id="contact">
+
+  <div class="kicker">06 / LET'S MOVE <i></i></div>
+
+  <div class="contact-grid">
+
+    <div>
+
+      <h2>
+        GOT A<br>
+        <em>DELIVERY?</em>
+      </h2>
+
+      <p>
+        Tell us where to pick up and where it needs to go.
+        Achraf will confirm the details with you directly.
+      </p>
+
+      <div class="contact-links">
+
+        <a class="wa-link" href="#contact">
+          ◉ WHATSAPP ↗
+        </a>
+
+        <a href="https://www.instagram.com/alloa.chraf/" target="_blank">
+          ◎ @ALLOA.CHRAF ↗
+        </a>
+
+        <span>⌖ MARRAKECH, MOROCCO</span>
+
+      </div>
+
+    </div>
+
+    <form id="deliveryForm">
+
+      <div class="form-head">
+        DELIVERY REQUEST
+        <span>01 — 05</span>
+      </div>
+
+      <label>
+        YOUR NAME
+        <input name="name" required placeholder="Full name">
+      </label>
+
+      <label>
+        PHONE NUMBER
+        <input name="phone" type="tel" required placeholder="+212 ...">
+      </label>
+
+      <div class="form-row">
+
+        <label>
+          PICKUP LOCATION
+          <input name="pickup" required placeholder="Where to collect?">
+        </label>
+
+        <label>
+          DESTINATION
+          <input name="destination" required placeholder="Where to deliver?">
+        </label>
+
+      </div>
+
+      <label>
+        DELIVERY DETAILS
+        <textarea name="details" required rows="3"
+          placeholder="What do you need delivered?"></textarea>
+      </label>
+
+      <button class="btn primary" type="submit">
+        SEND REQUEST ON WHATSAPP ↗
+      </button>
+
+      <p class="form-note">
+        Your details will be prepared in a WhatsApp message for confirmation.
+      </p>
+
+    </form>
+
+  </div>
+
+</section>
+
+</main>
+
+<!-- FOOTER -->
+
+<footer>
+
+  <div class="footer-main">
+
+    <a class="brand" href="#home">
+      <span class="brand-icon">↗</span>
+      <span>
+        ALO<span>CHARAF</span>
+        <small>YOUR LOCAL COURIER</small>
+      </span>
+    </a>
+
+    <h3>
+      YOUR DELIVERY.<br>
+      <em>OUR MISSION.</em>
+    </h3>
+
+    <a href="#home">BACK TO TOP ↑</a>
+
+  </div>
+
+  <div class="footer-bottom">
+
+    <span>© <span id="year"></span> ALO CHARAF. ALL RIGHTS RESERVED.</span>
+
+    <span>MARRAKECH, MOROCCO</span>
+
+    <span>DESIGNED & DEVELOPED BY <b>TEAM NEXORA</b></span>
+
+  </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
